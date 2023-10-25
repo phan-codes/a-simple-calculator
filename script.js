@@ -1,4 +1,5 @@
 const input = document.getElementById('input');
+input.focus();
 
 document.querySelector('.ac').addEventListener('click', () => {
 	input.value = '';
